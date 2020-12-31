@@ -19,7 +19,6 @@ GoodsList::GoodsList(QWidget *parent) :
 
     listGoodsModel->setHorizontalHeaderLabels(listGoodsHeader);
 
-    /*
     addElementToTable("Шариковая ручка Erichcrause", 0, 0, listGoodsModel);
     addElementToTable("Шариковая ручка", 0, 1, listGoodsModel);
     addElementToTable("300", 0, 2, listGoodsModel);
@@ -47,7 +46,6 @@ GoodsList::GoodsList(QWidget *parent) :
     addElementToTable("5000", 3, 3, listGoodsModel);
     addElementToTable("20", 3, 4, listGoodsModel);
     addElementToTable("Erichcrause", 3, 5, listGoodsModel);
-    */
 
     ui->tableGoods->setModel(listGoodsModel);
     ui->tableGoods->resizeColumnsToContents();
